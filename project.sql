@@ -16,6 +16,7 @@ CREATE TABLE ACCOUNT (
     eleboard_id INT,
     cust_id INT,
     cust_name VARCHAR(25),
+    account_type VARCHAR(15),
     address VARCHAR(100),
     rr_number VARCHAR(10) NOT NULL,
     acc_status VARCHAR(10) NOT NULL,
@@ -57,15 +58,15 @@ CREATE TABLE BILLING(
 	PRIMARY KEY (bill_number),
 	FOREIGN KEY (cust_id) 
 		REFERENCES CUSTOMER 
-		ON DELETE CASCADE, 
-	FOREIGN KEY (acc_id) 
+		ON DELETE CASCADE,
+	FOREIGN KEY (acc_id)
 		REFERENCES ACCOUNT
 		ON DELETE CASCADE
 ); 
 
 CREATE TABLE TARIFF(
-	tariff_id INT PRIMARY KEY,  
-	tariff_description VARCHAR(100), 
+	tariff_id INT PRIMARY KEY,
+	tariff_description VARCHAR(100),
 	tariff_status VARCHAR(10),
 	PRIMARY KEY (tariff_id),
 );
