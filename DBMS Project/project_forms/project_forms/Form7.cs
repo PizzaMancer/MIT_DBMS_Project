@@ -8,17 +8,11 @@ using System.Windows.Forms;
 
 namespace project_forms
 {
-    public partial class Form3 : Form
+    public partial class Form7 : Form
     {
-        public Form3()
+        public Form7()
         {
             InitializeComponent();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Form7 f7 = new Form7();
-            f7.Show();
         }
     }
 }
