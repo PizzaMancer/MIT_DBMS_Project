@@ -45,6 +45,8 @@ namespace project_forms
             // 
             // textBox1
             // 
+            this.textBox1.AcceptsReturn = true;
+            this.textBox1.AcceptsTab = true;
             this.textBox1.Location = new System.Drawing.Point(29, 75);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -69,7 +71,7 @@ namespace project_forms
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form7";
-            this.Text = "Form7";
+            this.Text = "Feedback";
             this.ResumeLayout(false);
             this.PerformLayout();
 

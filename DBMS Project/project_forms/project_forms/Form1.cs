@@ -17,5 +17,17 @@ namespace project_forms
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(textBox2.Text == "password")
+            {
+                Form3 f3 = new Form3();
+                f3.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid Password");
+            }
+        }
     }
 }

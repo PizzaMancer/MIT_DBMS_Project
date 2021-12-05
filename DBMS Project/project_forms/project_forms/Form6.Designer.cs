@@ -170,7 +170,7 @@ namespace project_forms
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form6";
-            this.Text = "Form6";
+            this.Text = "Enter Details";
             this.ResumeLayout(false);
             this.PerformLayout();
 

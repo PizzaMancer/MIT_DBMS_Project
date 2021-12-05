@@ -94,6 +94,7 @@ namespace project_forms
             this.button1.TabIndex = 18;
             this.button1.Text = "Make Payment";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form4
             // 
@@ -108,7 +109,7 @@ namespace project_forms
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Bill Payment";
             this.ResumeLayout(false);
             this.PerformLayout();
 
