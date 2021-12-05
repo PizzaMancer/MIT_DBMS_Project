@@ -21,3 +21,4 @@ C:\Users\dhans\Documents\DBMS Project\project_forms\project_forms\obj\Debug\netc
 C:\Users\dhans\Documents\DBMS Project\project_forms\project_forms\obj\Debug\netcoreapp3.1\project_forms.Form6.resources
 C:\Users\dhans\Documents\DBMS Project\project_forms\project_forms\obj\Debug\netcoreapp3.1\project_forms.Form7.resources
 C:\Users\dhans\Documents\DBMS Project\project_forms\project_forms\obj\Debug\netcoreapp3.1\project_forms.Form8.resources
+C:\Users\dhans\Documents\DBMS Project\project_forms\project_forms\obj\Debug\netcoreapp3.1\project_forms.Form9.resources
