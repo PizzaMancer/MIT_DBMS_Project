@@ -48,28 +48,28 @@ namespace project_forms
             // 
             this.textBox6.Location = new System.Drawing.Point(173, 268);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(125, 27);
+            this.textBox6.Size = new System.Drawing.Size(223, 27);
             this.textBox6.TabIndex = 24;
             // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(173, 235);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(125, 27);
+            this.textBox5.Size = new System.Drawing.Size(223, 27);
             this.textBox5.TabIndex = 23;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(173, 202);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(125, 27);
+            this.textBox4.Size = new System.Drawing.Size(223, 27);
             this.textBox4.TabIndex = 22;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(173, 169);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(125, 27);
+            this.textBox3.Size = new System.Drawing.Size(223, 27);
             this.textBox3.TabIndex = 21;
             // 
             // textBox2
@@ -84,7 +84,7 @@ namespace project_forms
             // 
             this.textBox1.Location = new System.Drawing.Point(173, 27);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
+            this.textBox1.Size = new System.Drawing.Size(223, 27);
             this.textBox1.TabIndex = 19;
             // 
             // label6

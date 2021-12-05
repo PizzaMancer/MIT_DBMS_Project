@@ -32,5 +32,11 @@ namespace project_forms
             Form4 f4 = new Form4();
             f4.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form9 f9 = new Form9();
+            f9.Show();
+        }
     }
 }

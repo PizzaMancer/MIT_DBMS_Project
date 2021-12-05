@@ -205,14 +205,15 @@ namespace project_forms
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(176, 29);
             this.button4.TabIndex = 17;
-            this.button4.Text = "View Region Emissions";
+            this.button4.Text = "View Region Details";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(608, 416);
+            this.ClientSize = new System.Drawing.Size(601, 416);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -232,7 +233,7 @@ namespace project_forms
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Home";
             this.ResumeLayout(false);
             this.PerformLayout();
 

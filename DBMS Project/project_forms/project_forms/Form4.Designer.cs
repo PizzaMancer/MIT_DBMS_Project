@@ -42,21 +42,24 @@ namespace project_forms
             // 
             this.textBox3.Location = new System.Drawing.Point(164, 95);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(125, 27);
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(159, 27);
             this.textBox3.TabIndex = 17;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(164, 62);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(125, 27);
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(159, 27);
             this.textBox2.TabIndex = 16;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(164, 29);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(159, 27);
             this.textBox1.TabIndex = 15;
             // 
             // label3
@@ -88,7 +91,7 @@ namespace project_forms
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(116, 158);
+            this.button1.Location = new System.Drawing.Point(138, 157);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 29);
             this.button1.TabIndex = 18;
@@ -100,7 +103,7 @@ namespace project_forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(342, 213);
+            this.ClientSize = new System.Drawing.Size(381, 213);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
